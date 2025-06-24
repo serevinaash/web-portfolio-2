@@ -109,9 +109,7 @@ const devSkills = [
   'Python', 'CodeIgniter', 'PostgreSQL', 'Firebase', 'Git', 'MySQL'
 ];
 
-const contentSkills = [
-  'Figma', 'Canva', 'Capcut', 'Adobe Premiere Pro', 'Adobe Illustrator'
-];
+
 
 export default function Home() {
   // Removed mobileMenuOpen state
