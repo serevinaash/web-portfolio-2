@@ -274,8 +274,8 @@ export default function Home() {
 
             <div className="md:hidden mt-10 mb-20">
               <TiltedCard
-                imageSrc="/photos/tiltedcard2.svg"
-                altText="Yuyuhiei"
+                imageSrc="/photos/tiltedcard2.jpg"
+                altText="Serevina"
                 captionText="Serevina Sherly Maulida"
                 containerHeight="400px"
                 containerWidth="300px"
