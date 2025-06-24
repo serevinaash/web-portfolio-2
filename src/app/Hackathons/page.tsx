@@ -44,7 +44,7 @@ const hackathonEntriesData = [
     entryNumber: "03",
     title: "IT Fair UIN Bandung hackathon",
     award: "3th Place",
-    description: "Scan your receipts, unlock financial intelligence. This AI companion uses videos or images of receipts to categorize spending, analyze habits, guide your budget towards goals, and reward smart money decisions. KachingKo makes understanding your finances instant and engaging.",
+    description: "Won 3rd place in a hackathon themed “Improving the Efficiency of Campus and School Services” by developing a mental health web application. The platform was designed to support students in accessing mental health information, performing self-screening, and connecting anonymously with volunteers or counselors in a supportive community environment.",
     imageSrc: '/solutions/it.png', // Replace with the actual image path
     projectLink: "https://github.com/serevinaash/ULP_UinBandung", // <-- Add the link for KachingKo
     trophyType: "participant", // Specify the trophy type (using participant as a placeholder for 4th)
