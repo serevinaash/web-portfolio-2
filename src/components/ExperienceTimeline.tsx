@@ -7,53 +7,48 @@ import Image from 'next/image';
 // import { comma } from 'postcss/lib/list';
 
 
+
+
 const experiences = [
   {
     id: 1,
-    title: 'Backend Engineer Intern',
-    company: 'Roote Trails',
-    year: 'Feb 2025 – May 2025',
+    title: 'Fullstack Engineer - MagangHub Kemnaker',
+    company: 'PMI Hospital Bogor',
+    year: 'Sep 2026 – Mar 2027',
     description:
-      'Developed and maintained backend features using Laravel Filament to build an efficient and user-friendly admin panel. Implemented API authentication with Laravel Sanctum and managed user access control using Spatie roles and permissions.',
-    logo: '/exp_logos/roote.jpg',
+      'Developed and enhanced SIMRS modules using Laravel and PHP to support hospital operations. Implemented new features and resolved system issues based on business requirements.',
+    logo: '/logo/pmi.png',
   },
   {
     id: 2,
-    title: 'Cloud Computing Cohort',
-    company: 'Bangkit Academy (Google, Tokopedia, Gojek, Traveloka)',
-    year: 'Sep 2024 – Jan 2025',
+    title: 'Fullstack Engineer - Full Time',
+    company: 'Pigeon Corporation',
+    year: 'Jun 2026 – Aug 2026',
     description:
-      'Graduated with an average score of 93.10. Built a tourism platform for Community-Based Tourism (CBT) and was selected as one of the best teams in the company track.',
-    logo: '/exp_logos/bangkit.jpg',
+      'Developed internal business modules using PHP and mobile applications using Flutter. Implemented system improvements, optimized functionalities, and resolved application issues based on business requirements.',
+    logo: '/logo/pigeon.png',
   },
   {
     id: 3,
-    title: 'Cloud Computing Intern',
-    company: 'PT Amati Karya Indonesia',
-    year: 'Oct 2024 – Dec 2024',
+    title: 'IT System Analyst - Project-Based',
+    company: 'PT KAS PRIMA',
+    year: 'Sep 2025 – Now',
     description:
-      'Developed Laravel backend with Midtrans API integration and optimized MySQL schemas, completing 80% of project milestones ahead of schedule. Implemented secure RESTful APIs and PWA features for seamless frontend-backend integration.',
-    logo: '/exp_logos/amatikarya.jpg',
+      'Conducted requirement gathering and created SRS, UML, and BPMN documentation to translate business requirements into technical solutions. Led UAT testing, created test cases, and collaborated with developers and stakeholders to ensure system readiness before deployment.',
+    logo: '/logo/kasprima.png',
   },
   {
     id: 4,
-    title: 'Fullstack Engineer Intern',
-    company: 'Figurupa Studio',
-    year: 'Dec 2023 – Feb 2024',
+    title: 'Cloud Computing - Cohort',
+    company: 'Bangkit Academy (Google, Tokopedia, Gojek, & Traveloka)',
+    year: 'Sep 2024 – Jan 2025',
     description:
-      'Worked with Laravel and Jetstream for secure and scalable full-stack web applications. Integrated Midtrans payment gateway to support e-commerce transactions.',
-    logo: '/exp_logos/figurupa.jpg',
-  },
-  {
-    id: 5,
-    title: 'Media Creative',
-    company: 'Google Developer Student Clubs – UIN Sunan Gunung Djati',
-    year: '2024',
-    description:
-      'As a Media Creative, I managed content strategy and visual designs for GDSC events, collaborated on branding efforts, and ensured consistent digital presence across social platforms and student engagement campaigns.',
-    logo: '/exp_logos/gdscplm.svg',
+      'Graduated with an average score of 93.10 and developed a tourism platform for Community-Based Tourism (CBT). Selected as one of the best teams in the company track.',
+    logo: '/exp_logos/bangkit.jpg',
   },
 ];
+
+
 
 
 const ExperienceTimeline: React.FC = () => {

@@ -37,36 +37,36 @@ const projects = [
   {
     id: 2,
     number: '02',
-    title: 'BlancInstinc',
-    description: 'Full Stack Developer',
+    title: 'Pigeon Mobile and Website Internal',
+    description: 'Full Stack and Mobile Developer',
     techstack: [
         '/techstack/laravel.png',
-        '/techstack/tailwind.svg',
+        '/techstack/flutter.svg',
     ],
-    imageSrc: '/proj/project2.png',
-    link: 'https://github.com/serevinaash/blancinstinc_ecommerce',
+    imageSrc: '/proj/pigeon.png',
+    link: '#',
   },
   {
     id: 3,
     number: '03',
-    title: 'Pengaduan Masyarakat Online',
+    title: 'IndRain PUPR',
     description: 'Full Stack Developer',
     techstack: [
         '/techstack/codeigniter.png',
         '/techstack/css.svg',
     ],
-    imageSrc: '/proj/project3.png',
+    imageSrc: '/proj/pupr.png',
     link: 'https://plmce-grievdesk.web.app/',
   },
   {
     id: 4,
     number: '04',
-    title: 'Website Cosmetic',
-    description: 'Full Stack Developer',
+    title: 'Hutama Karya Odoo and Mobile',
+    description: 'System Analyst, QA, UI/UX',
     techstack: [
         '/techstack/css.svg',
     ],
-    imageSrc: '/proj/project4.png',
+    imageSrc: '/proj/hk.png',
     link: 'https://vocal-figolla-d38d32.netlify.app/',
   },
   {
@@ -106,7 +106,7 @@ const handleAnimationComplete = () => {
 // Define your skill arrays (you could also move these to a data file if they get long)
 const devSkills = [
   'Laravel', 'Tailwind', 'React', 'Javascript', 'CSS', 'Node.js',
-  'Python', 'CodeIgniter', 'PostgreSQL', 'Firebase', 'Git', 'MySQL'
+  'Python', 'CodeIgniter', 'PostgreSQL', 'Firebase', 'Git', 'MySQL', 'Flutter', 'BRD', 'UML', 'BPMN', 'SRS',
 ];
 
 
@@ -230,7 +230,7 @@ export default function Home() {
                
                 <button
                     className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-                    onClick={() => window.open('/photos/resume-example.pdf')}
+                    onClick={() => window.open('/photos/resume.pdf')}
                   >
                     Download CV
                   </button>
@@ -252,7 +252,7 @@ export default function Home() {
 
             <div className="hidden md:block mt-10 mb-20">
               <TiltedCard
-                imageSrc="/photos/titledcard3.jpg"
+                imageSrc="/photos/tilted.png"
                 altText="Yuyuhiei"
                 captionText="Serevina Sherly Maulida" 
                 containerHeight="600px"
@@ -274,7 +274,7 @@ export default function Home() {
 
             <div className="md:hidden mt-10 mb-20">
               <TiltedCard
-                imageSrc="/photos/tiltedcard2.jpg"
+                imageSrc="/photos/tilted.png"
                 altText="Serevina"
                 captionText="Serevina Sherly Maulida"
                 containerHeight="400px"
