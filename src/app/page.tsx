@@ -150,7 +150,7 @@ export default function Home() {
 
         <div className="font-bold text-center opacity-0 animate-fadeIn mt-1 md:mt-3">
           <TrueFocus
-            sentence="Developer   Frontend   Backend"
+            sentence="Developer   System Analyst   Backend"
             manualMode={true}
             blurAmount={5}
             borderColor="cyan"
